@@ -20,7 +20,7 @@ class BarGraph extends Component {
     render() {
         return (
           <div className="App">
-            <header style={{fontSize: "19px"}}>Vertical Bar Graph</header>
+            <header style={{fontSize: "1.3em"}}>Vertical Bar Graph</header>
             <div style={{height: 600}}>
               <ResponsiveBar
                 data = {data}
@@ -78,11 +78,11 @@ class BarGraph extends Component {
                 motionDamping={15}
                 isInteractive={false}
                 theme={{
-                  labels: {text:{fontSize: '13px',fontWeight: 'bold'}},
-                  legends: {text:{fontSize: '13px'}},
+                  labels: {text:{fontSize: '0.8em',fontWeight: 'bold'}},
+                  legends: {text:{fontSize: '0.8em'}},
                   axis: {
-                    legend: {text:{fontSize: '13px',fontWeight: 'bold'}},
-                    ticks: {text:{fontSize: '13px',fontWeight:'bold'}},
+                    legend: {text:{fontSize: '0.8em',fontWeight: 'bold'}},
+                    ticks: {text:{fontSize: '0.8em',fontWeight:'bold'}},
                   },
                 }}
               />
