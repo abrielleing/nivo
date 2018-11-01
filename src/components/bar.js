@@ -20,7 +20,7 @@ class BarGraph extends Component {
     render() {
         return (
           <div className="App">
-            <header style={{fontSize: "1.3em"}}>Vertical Bar Graph</header>
+            <header style={{fontSize: "1.3em", fontWeight: "bold"}}>Vertical Bar Graph</header>
             <div style={{height: 600}}>
               <ResponsiveBar
                 data = {data}

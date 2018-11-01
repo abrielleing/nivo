@@ -32,7 +32,7 @@ class HorBarGraph extends Component {
     render() {
         return (
           <div className="App">
-            <header style={{fontSize: "19px"}}>Horizontal Bar Graph</header>
+            <header style={{fontSize: "19px", fontWeight: "bold"}}>Horizontal Bar Graph</header>
             <div style={{height: 600}}>
               <ResponsiveBar
                 data = {data}

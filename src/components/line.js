@@ -36,7 +36,7 @@ class LineGraph extends Component {
     render() {
         return (
             <div className="App">
-                <header style={{fontSize: "21px"}}>Line Graph</header>
+                <header style={{fontSize: "19px", fontWeight: "bold"}}>Line Graph</header>
                 <div style={{height: 600}}>
                     <ResponsiveLine
                         data = {data}

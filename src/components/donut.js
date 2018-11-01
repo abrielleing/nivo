@@ -20,7 +20,7 @@ class DonutGraph extends Component {
     render() {
         return (
             <div className="App">
-                <header style={{fontSize: "21px"}}>Donut</header>
+                <header style={{fontSize: "19px", fontWeight: "bold"}}>Donut</header>
                 <div style={{height: 600}}>
                     <ResponsivePie
                         data = {data}
